@@ -22,7 +22,7 @@ public class UserTest{
         test_List.add(user);
 
         userAdapter = new UserAdapter(test_List,null);
-        assertEquals(4, userAdapter.getItemCount());
+        assertEquals(5, userAdapter.getItemCount());
     }
     @Test
     public void testForUserClass(){
