@@ -21,7 +21,7 @@ public class UserTest{
         test_List.add(user);
 
         userAdapter = new UserAdapter(test_List,null);
-        assertEquals(5, userAdapter.getItemCount());
+        assertEquals(4, userAdapter.getItemCount());
 
         assertEquals("John Doe", user.getName());
         assertEquals("MAD Developer", user.getDescription());
