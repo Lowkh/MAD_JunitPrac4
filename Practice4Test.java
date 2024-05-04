@@ -10,10 +10,9 @@ public class UserTest{
     @Test
     public void testUser(){
         user = new User("John Doe", "MAD Developer", 1, false);
-        assertEquals("John Doe", user.name);
-        assertEquals("MAD Developer", user.description);
-        assertEquals(1, user.id);
-        assertEquals(false, user.followed);
+        assertEquals("John Doe", user.getName());
+        assertEquals("MAD Developer", user.getDescription());
+        assertEquals(false, user.getFollowed());
     }
 
 }
